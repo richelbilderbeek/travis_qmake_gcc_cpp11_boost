@@ -1,7 +1,11 @@
 #include <boost/graph/adjacency_list.hpp>
 
-int main() {
+int f() noexcept {
   boost::adjacency_list<> g;
   boost::add_vertex(g);
-  if (boost::num_vertices(g) != 1) return 1;
+  return boost::num_vertices(g);
+}
+
+int main() {
+  if (f() != 1) return 1;
 }
