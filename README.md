@@ -14,5 +14,9 @@ The goal of this project is to have a clean Travis CI build, with specs:
  * Code coverage: none
  * Source: one single file, `main.cpp`
 
+More complex builds:
+ * Add `Boost.Test`: [travis_qmake_gcc_cpp11_boost_test](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11_boost_test)
+
+
 Simpler builds:
  * Libraries: `STL` only: [travis_qmake_gcc_cpp11](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11)
